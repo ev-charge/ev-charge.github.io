@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Aggregative charging control of electric vehicle populations
 
-You can use the [editor on GitHub](https://github.com/ev-charge/ev-charge.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Abstract
 
-### Markdown
+The ambitious targets in the United Kingdom for increasing the share of renewable energy sources integrated to the network, and the need for providing affordable, resilient and clean energy, call for a paradigm shift in energy systems operations. Electric vehicles offer the means to address these challenges and achieve uninterrupted operation by deferring their demand in time and acting as dynamic storage devices. As a result, their number is expected to increase rapidly over the next years, leading to a "green car revolution". This constitutes an opportunity for modernizing energy systems operation, but will unavoidably give rise to coordination and scheduling issues at a population level so that cost savings are achieved and reliability is ensured. The latter is of significant importance to prevent from undesirable disruptions of service.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This project will address this problem using tools at the intersection of control theory, optimization and machine learning, allowing for a decentralized computation of the electric vehicle charging strategies, while preventing vehicles from sharing information about their local utility functions and consumption patterns that is considered to be private. We will develop algorithms capable of dealing both with cooperative and non-cooperative vehicle behaviours in large fleets of vehicles, and immunize the resulting strategies against uncertainty due to unpredictability in the vehicles' driving behaviour and due to the presence of renewable energy sources. The presence of an algorithmic tool with these features will allow for scalable charging solutions amenable to problems of practical relevance, will provide insight on the mechanism driving the response of large populations of electric vehicles, and embed robustness in the resulting charging schedules. As such, the proposed project will offer the means for reliable system operation and facilitate the integration of higher shares of renewable energy sources. 
 
-```markdown
-Syntax highlighted code block
+### Planned Impact
+The project will develop an algorithmic toolkit for analysis and synthesis of charging control strategies in large populations of electric vehicles, addressing two key issues that are faced by the industry: dealing with shared resource constraints, as it is most often the case in situations of practical relevance; and handling uncertainty in an efficient, albeit rigorous, manner. These contributions will facilitate future application and experimental validation of the developed electric vehicle charging control strategies by the energy and transportation industrial sector, and accommodate vehicle populations of growing size.
 
-# Header 1
-## Header 2
-### Header 3
+The following impact criteria are addressed:
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ev-charge/ev-charge.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1. Economic: Performance improvement in electric vehicle charging control methods, leading to charging cost savings, intelligent resource allocation and facilitating the integration of higher shares of renewable energy sources. These features will make the developed algorithms appealing to electric vehicle charging network operators, and to leading industrial partners in energy efficient management technologies and smart-grid solutions.
+2. Societal: Robustness in charging schedules enhancing reliability. This will increase the confidence of electric vehicle users and provide cost efficient solutions, while respecting their privacy concerns regarding their consumption patterns.
+3. Knowledge & Skills: Developing novel solutions for control of multi-agent systems, merging tools from different disciplines, namely, control theory, optimization and machine learning. This will set the ground for breakthrough solutions to the problem of control and performance optimization in uncertain environments with multiple agents.
+4. Users: Direct engagement with industrial representatives from the energy and transportation sector, exploiting support by Siemens and Honeywell. Development of an open access algorithmic repository, allowing for benchmarking and result reproducibility; support by MathWorks will be exploited. 
