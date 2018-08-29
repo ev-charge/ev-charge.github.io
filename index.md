@@ -1,4 +1,4 @@
-## Aggregative charging control of electric vehicle populations
+## The project
 
 
 ### Abstract
