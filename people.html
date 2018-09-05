@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-		<title>Contact - Aggregative charging control of EV populations</title>
+		<title>People - Aggregative charging control of EV populations</title>
 
 		<!-- Google font -->
 		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
@@ -36,11 +36,13 @@
 			<div class="container">
 
 				<div class="navbar-header">
-					<!-- Logo -->
+					<!-- Logo
 					<div class="navbar-brand">
-
+						<a class="logo" href="index.html">
+							<img src="./img/logo.png" alt="logo">
+						</a>
 					</div>
-					<!-- /Logo -->
+					 /Logo -->
 
 					<!-- Mobile toggle -->
 					<button class="navbar-toggle">
@@ -69,7 +71,7 @@
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/page-background.jpg)"></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pietro-jeng-266017-unsplash.jpg)"></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
@@ -77,9 +79,17 @@
 					<div class="col-md-10 col-md-offset-1 text-center">
 						<ul class="hero-area-tree">
 							<li><a href="index.html">Home</a></li>
-							<li>Contact</li>
+							<li><a href="people.html">People</a></li>
+							<li>Team</li>
 						</ul>
-						<h1 class="white-text">Get In Touch</h1>
+						<h1 class="white-text">The team</h1>
+						<!--
+						<ul class="blog-post-meta">
+							<li class="blog-meta-author">By : <a href="#">John Doe</a></li>
+							<li>18 Oct, 2017</li>
+							<li class="blog-meta-comments"><a href="#"><i class="fa fa-comments"></i> 35</a></li>
+						</ul>
+					-->
 
 					</div>
 				</div>
@@ -88,8 +98,8 @@
 		</div>
 		<!-- /Hero-area -->
 
-		<!-- Contact -->
-		<div id="contact" class="section">
+		<!-- Blog -->
+		<div id="bios" class="section">
 
 			<!-- container -->
 			<div class="container">
@@ -97,72 +107,67 @@
 				<!-- row -->
 				<div class="row">
 
-					<!-- contact form -->
-					<div class="col-md-6">
-						<div class="contact-form">
-							<h4>Send A Message</h4>
+					<!-- main blog -->
+					<div id="main" class="col-md-8 col-md-offset-2">
+						<div class="bio">
+							<p><img src="./img/kostis0906.png" alt="Kostas Margellos"><a href="https://sites.google.com/site/margellosk/home">Kostas Margellos</a> <em>(Principal Investigator)</em> received the Diploma in electrical and computer engineering from the University of
+								 Patras, Greece, in 2008 and the Ph.D. in automatic control from ETH Zurich, Switzerland, in November 2012, under the supervision of
+								 Prof. John Lygeros.
+								 From December 2012 till December 2013 I was a post-doctoral researcher at ETH Zurich working with Prof. John Lygeros, while from January 2014 till January 2015 I was a post-doctoral researcher in the Department of Industrial Engineering and Operations Research at UC Berkeley, working with Prof. Shmuel Oren. From February 2015 till February 2016 I was a post-doctoral researcher at the Department of Electronics, Information and Bioengineering, at Politecnico di Milano, working with Prof. Maria Prandini.
+								 In March 2016 I joined the Control Group, Department of Engineering Science, University of Oxford, where I am currently an Associate Professor. I am also a Lecturer at Worcester College.
+								 My research interests currently focus on: Reachability analysis and optimal control of hybrid systems, Data based optimization, Randomized and robust optimization, Statistical learning theory, Decentralized and distributed computation, Decision making in power networks with uncertainty.
+							 </p>
+
+							<p><img src="./img/fili.jpg" alt="Filiberto Fele"><a href="https://www.researchgate.net/profile/Filiberto_Fele">Filiberto Fele</a> <em>(Postdoctoral researcher)</em> received the degree in mechatronics engineering from Politecnico di Torino. He has been a research assistant with the Department of Systems and Automation Engineering at the University of Seville, where he received his PhD degree. Since 2017, he is a research associate with the Control and Power group, Department of Electrical and Electronic Engi- neering, at Imperial College London. His research interests focus on the management of large-scale distribution networks through optimal control and game-theoretical methods.</p>
+						</div>
+					</div>
+						<!-- /blog post -->
+
+						<!-- blog share
+						<div class="blog-share">
+							<h4>Share This Post:</h4>
+							<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+							<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+							<a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+						</div>
+						 /blog share -->
+
+
+					</div>
+					<!-- /main blog -->
+
+					<!-- aside blog -->
+					<div id="aside" class="col-md-2">
+
+						<!-- search widget
+						<div class="widget search-widget">
 							<form>
-								<input class="input" type="text" name="name" placeholder="Name">
-								<input class="input" type="email" name="email" placeholder="Email">
-								<input class="input" type="text" name="subject" placeholder="Subject">
-								<textarea class="input" name="message" placeholder="Enter your Message"></textarea>
-								<button class="main-button icon-button pull-right">Send Message</button>
+								<input class="input" type="text" name="search">
+								<button><i class="fa fa-search"></i></button>
 							</form>
 						</div>
-					</div>
-					<!-- /contact form -->
+						 /search widget -->
 
-					<!-- contact information -->
-					<div class="col-md-5 col-md-offset-1">
-						<div class="row contact-details">
-						<h4>Contact Information</h4>
-						<div class="col-md-1">
-							<i class="contact-details-sym fa fa-envelope"></i>
+						<!-- category widget
+						<div class="widget category-widget">
+							<h3>Categories</h3>
+							<a class="category" href="#">Journal <span>4</span></a>
 						</div>
-						<div class="col-md-11">
-							filiberto.fele (at) eng.ox.ac.uk
-						</div>
-					</div>
-
-					<div class="row contact-details">
-						<div class="col-md-1">
-							<i class="contact-details-sym fa fa-phone"></i>
-						</div>
-						<div class="col-md-11">
-							+44 1865 283912
-						</div>
-					</div>
-
-					<div class="row contact-details">
-						<div class="col-md-1">
-							<i class="contact-details-sym fa fa-map-signs"></i>
-						</div>
-						<div class="col-md-11">
-							Department of Engineering Science,<br>
-											University of Oxford,<br>
-											Parks Road, OX1 3PJ, Oxford,<br>
-											United Kingdom
-						</div>
-					</div>
+						 /category widget -->
 
 
-
-
-						<!-- contact map
-						<div id="contact-map"></div>
-						 /contact map -->
 
 					</div>
-					<!-- contact information -->
+					<!-- /aside blog -->
 
 				</div>
-				<!-- /row -->
+				<!-- row -->
 
 			</div>
-			<!-- /container -->
+			<!-- container -->
 
 		</div>
-		<!-- /Contact -->
+		<!-- /Blog -->
 
 		<!-- Footer -->
 		<footer id="footer" class="section">
@@ -237,14 +242,12 @@
 		<!-- jQuery Plugins -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<!--- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-		<script type="text/javascript" src="js/google-map.js"></script> --->
 		<script type="text/javascript" src="js/main.js"></script>
 		<script>
 		// When the user clicks on div, open the popup
 		function funpopup(in1) {
-				var popup = document.getElementById(in1);
-				popup.classList.toggle("show");
+		    var popup = document.getElementById(in1);
+		    popup.classList.toggle("show");
 		}
 		</script>
 	</body>
