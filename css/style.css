@@ -684,11 +684,17 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .course {
 	margin-top:20px;
 	margin-bottom:20px;
+  display:inline-block;
+
+}
+
+.coursewrap .row {
+  clear: both;
 }
 
 .course .course-img {
 	position: relative;
-	display:block;
+	display:inline-block;
 	margin-bottom:20px;
 	border-radius:4px;
 	overflow:hidden;
@@ -769,6 +775,26 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 #courses .center-btn {
 	text-align:center;
 	margin-top:40px;
+}
+
+/*
+Biografie
+*/
+
+.bio p {
+  margin-bottom:40px;
+}
+
+.bio img {
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+.bio a {
+  font-size: 20px;
+  color: 111;
+  font-weight: 700;
 }
 
 /*------------------------------------*\
@@ -1383,7 +1409,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 @media only screen and (max-width: 767px) {
-	/*-- Hero area --*/
+
+  /*-- Hero area --*/
 	.hero-area h1 {
 		font-size:30px;
 	}
